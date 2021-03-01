@@ -43,13 +43,12 @@ router.get("/api/workouts/range", (req, res) => {
   });
 
   router.get("/api/workouts", (req, res) => {
-    Workout.getWorkoutsInRange({})
-      .sort({ date: -1 })
-      .then(dbWorkout => {
-        res.json(dbWorkout);
-      })
+    Workout.find({})
+    .then(dbLastWorkout => {
+      res.json(dbLastWorkout);
+    })
       .catch(err => {
-        res.status(400).json(err);
+        res.json(err)
       });
   });
 
