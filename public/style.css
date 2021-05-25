@@ -33,7 +33,7 @@ a:visited {
   color: inherit;
 }
 
-nav a:hover{
+nav a:hover {
   opacity: 0.7;
 }
 
@@ -122,7 +122,7 @@ form label {
   margin-top: 0.7rem;
 }
 
-form > button {
+form>button {
   float: right;
   margin-top: 20px;
 }
@@ -199,7 +199,7 @@ form label {
   margin-top: 0.7rem;
 }
 
-form > button {
+form>button {
   float: right;
   margin-top: 20px;
 }
@@ -248,6 +248,7 @@ button {
   color: hsl(94, 90%, 16%);
   transition: all 0.5s;
 }
+
 .workout-type,
 form .cardio-form div,
 form .resistance-form div {
@@ -260,7 +261,7 @@ form label {
   margin-top: 0.7rem;
 }
 
-form > button {
+form>button {
   float: right;
   margin-top: 20px;
 }
@@ -326,7 +327,7 @@ button {
   background: linear-gradient(to bottom, #ffffff 0%, #e5e5e5 100%);
 }
 
-form > button {
+form>button {
   margin: 5px;
   margin-top: 20px;
 }
@@ -434,6 +435,7 @@ form > button {
     opacity: 1;
     right: 10px;
   }
+
   100% {
     opacity: 0;
     right: -320px;
